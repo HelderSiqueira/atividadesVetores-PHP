@@ -1,0 +1,15 @@
+<?php
+
+    function somaInteiros(array $inteiros){
+        $soma = 0;
+        foreach($inteiros as $num){
+            $soma += $num;
+        }
+        return $soma;
+    }
+
+    echo somaInteiros([10,4,5,20,50]);
+    
+    echo "<br/><br/>";
+
+    echo somaInteiros([1200,2000,9000,1500,1545]);
